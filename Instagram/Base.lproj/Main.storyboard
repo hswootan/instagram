@@ -110,17 +110,17 @@
                                                         <constraint firstAttribute="width" secondItem="GnQ-2u-6np" secondAttribute="height" multiplier="398:377" id="AJ6-tv-wOD"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yd-ew-390">
-                                                    <rect key="frame" x="8" y="393" width="29" height="20.333333333333314"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yd-ew-390">
+                                                    <rect key="frame" x="8" y="393" width="40" height="20.333333333333314"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="29" id="7gC-fz-8Ks"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="pm9-sx-3uU"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is awesome" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCk-yy-QNM">
-                                                    <rect key="frame" x="45" y="393" width="361" height="20.333333333333314"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This is awesome" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCk-yy-QNM">
+                                                    <rect key="frame" x="56" y="393" width="350" height="20.333333333333314"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -130,10 +130,10 @@
                                                 <constraint firstItem="ZCk-yy-QNM" firstAttribute="baseline" secondItem="4yd-ew-390" secondAttribute="firstBaseline" id="AFz-dx-QF9"/>
                                                 <constraint firstItem="GnQ-2u-6np" firstAttribute="leading" secondItem="XNU-wd-iAI" secondAttribute="leading" constant="8" id="F4Q-vw-DxS"/>
                                                 <constraint firstItem="4yd-ew-390" firstAttribute="top" secondItem="GnQ-2u-6np" secondAttribute="bottom" constant="8" id="Fmp-hJ-7oS"/>
+                                                <constraint firstItem="4yd-ew-390" firstAttribute="leading" secondItem="XNU-wd-iAI" secondAttribute="leading" constant="16" id="G3X-Vc-32R"/>
                                                 <constraint firstItem="4yd-ew-390" firstAttribute="centerY" secondItem="ZCk-yy-QNM" secondAttribute="centerY" id="NNU-vB-7YC"/>
                                                 <constraint firstItem="ZCk-yy-QNM" firstAttribute="leading" secondItem="4yd-ew-390" secondAttribute="trailing" constant="8" id="Psd-f1-pEq"/>
                                                 <constraint firstAttribute="trailing" secondItem="ZCk-yy-QNM" secondAttribute="trailing" constant="8" id="Wot-Gu-VHQ"/>
-                                                <constraint firstItem="4yd-ew-390" firstAttribute="leading" secondItem="XNU-wd-iAI" secondAttribute="leading" constant="8" id="WvU-sK-tha"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ZCk-yy-QNM" secondAttribute="bottom" constant="8" id="lpD-0T-2hd"/>
                                                 <constraint firstAttribute="trailing" secondItem="GnQ-2u-6np" secondAttribute="trailing" constant="8" id="pgg-w2-Wx5"/>
                                                 <constraint firstItem="ZCk-yy-QNM" firstAttribute="top" secondItem="GnQ-2u-6np" secondAttribute="bottom" constant="8" id="ri3-Aw-zS1"/>
