@@ -24,6 +24,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
             window?.rootViewController = feedNavigationController
         }
+        
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
